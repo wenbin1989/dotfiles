@@ -14,6 +14,7 @@ set ttyfast
 set gdefault
 " Use UTF-8 without BOM
 set encoding=utf-8 nobomb
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " Change mapleader
 let mapleader=","
 " Don’t add empty newlines at the end of files
