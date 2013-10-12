@@ -1,0 +1,4 @@
+export ANDROID_SDK_ROOT=~/Sdk/android-sdk-macosx
+export NDK_ROOT=~/Sdk/android-ndk-r8e
+export PATH="$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools:$NDK_ROOT:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:/usr/local/sbin:$PATH"
+export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
