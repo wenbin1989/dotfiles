@@ -9,17 +9,19 @@ brew update
 brew upgrade --all
 
 # Install brew-cask
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 brew cleanup
 brew cask cleanup
 
 # Install native apps
 brew cask install 1password
 brew cask install aegisub
+brew cask install aliwangwang
 brew cask install caskroom/homebrew-versions/java6
 brew cask install cyberduck
 brew cask install dropbox
 brew cask install eclipse-ide
+brew cask install eudic
 brew cask install evernote
 brew cask install google-chrome
 brew cask install java
@@ -27,6 +29,7 @@ brew cask install mou
 brew cask install mplayerx
 brew cask install phpstorm
 brew cask install qq
+brew cask install shadowsocksx
 brew cask install skim
 brew cask install sogouinput
 brew cask install sublime-text
