@@ -77,7 +77,7 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
+brew install homebrew/x11/xpdf
 brew install xz
 
 # Install other useful binaries.
@@ -124,7 +124,10 @@ brew install phpmd
 brew install phpmyadmin
 brew install phpunit
 brew install python
+mkdir -p /Users/wenbin/Library/Python/2.7/lib/python/site-packages
+echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' > /Users/wenbin/Library/Python/2.7/lib/python/site-packages/homebrew.pth
 pip install --upgrade pip setuptools
+pip install virtualenvwrapper
 brew install rbenv
 brew install ruby-build
 brew install subversion

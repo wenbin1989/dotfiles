@@ -7,6 +7,9 @@ if which docker-machine > /dev/null; then eval "$(docker-machine env default)"; 
 # nvm
 if which nvm > /dev/null; then eval "$(brew --prefix nvm)/nvm.sh"; fi
 
+# virtualenvwrapper
+if which virtualenvwrapper.sh > /dev/null; then source virtualenvwrapper.sh; fi
+
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
 GIT_AUTHOR_NAME="wenbin1989"
