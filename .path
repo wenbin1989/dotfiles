@@ -1,0 +1,15 @@
+# Android
+export ANDROID_HOME="$(brew --prefix android-sdk)"
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
+export NDK_ROOT="$(brew --prefix android-ndk)"
+# Ant
+export ANT_ROOT="$(brew --prefix ant)/bin"
+# Homebrew Cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+# nvm
+export NVM_DIR=~/.nvm
+# rbenv
+export RBENV_ROOT=/usr/local/var/rbenv
+# PATH
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:/usr/local/sbin:$PATH"
+export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
