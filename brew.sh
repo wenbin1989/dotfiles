@@ -102,5 +102,43 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+# Install custom formulae
+brew install android-sdk
+brew install android-ndk
+brew install ant
+brew install composer
+brew install docker
+brew install docker-machine
+brew install docker-compose
+brew install doxygen --with-doxywizard --with-graphviz
+brew install homebrew/versions/elasticsearch17
+brew install macvim
+brew install maven
+brew install mysql
+brew install redis
+brew install nginx
+brew install nvm
+mkdir -p ~/.nvm
+brew install php-code-sniffer
+brew install phpmd
+brew install phpmyadmin
+brew install phpunit
+brew install python
+pip install --upgrade pip setuptools
+brew install rbenv
+brew install ruby-build
+brew install subversion
+brew install tomcat
+brew install unrar
+
+brew install homebrew/php/php56-imagick
+brew install homebrew/php/php56-mcrypt
+brew install homebrew/php/php56-redis
+brew install homebrew/php/php56-xdebug
+
+# Link apps
+brew unlinkapps
+brew linkapps
+
 # Remove outdated versions from the cellar.
 brew cleanup
